@@ -1,5 +1,5 @@
 function fizzBuzz() {
-  for (let i = 1; i < 101; i++) {
+  for (let i = 1; i <= 100; i++) {
     console.log(
       (!(i % 3) && !(i % 5) && ('FizzBuzz')) ||
       (!(i % 3) && ('Fizz')) ||
